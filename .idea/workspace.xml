@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66fc20a6-f2f1-4dd3-8c6e-e9bda6b51032" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoneyWatcherWeb" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoneyWatcherWeb" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoneyWatcherWeb" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoneyWatcherWeb" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Kotlin File" />
+        <option value="package-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hMCwZQWmoBpmYEhlEAjETSsYg2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15187088" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="alex.disco.ball.dao.jdbc" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="alex.disco.ball.dao.jdbc" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\job\Orekit\MoneyWatcherWeb\src\main\webapp\WEB-INF" />
+      <recent name="D:\job\Orekit\MoneyWatcherWeb\src\main\webapp" />
+      <recent name="D:\job\Orekit\MoneyWatcherWeb\src\main\resources" />
+      <recent name="D:\job\Orekit\MoneyWatcherWeb\src\main\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\job\Orekit\MoneyWatcherWeb\src\test\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="alex.disco.ball.dao." />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MoneyWatcherWeb [war]">
+    <configuration name="JpaPersonServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;alex.disco.ball.dao.jpa.integration.JpaPersonServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JpaPersonServiceTest.findById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;alex.disco.ball.dao.jpa.integration.JpaPersonServiceTest.findById&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JpaPersonServiceTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;alex.disco.ball.dao.jpa.integration.JpaPersonServiceTest.save&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JpaProductServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;alex.disco.ball.dao.jpa.integration.JpaProductServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoneyWatcherWeb [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MoneyWatcherWeb [war]" />
+        <item itemvalue="Gradle.JpaPersonServiceTest" />
+        <item itemvalue="Gradle.JpaProductServiceTest" />
+        <item itemvalue="Gradle.JpaPersonServiceTest.save" />
+        <item itemvalue="Gradle.JpaPersonServiceTest.findById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66fc20a6-f2f1-4dd3-8c6e-e9bda6b51032" name="Default Changelist" comment="" />
+      <created>1599811812521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599811812521</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2152" y="178" key="#Project_Structure" timestamp="1602081613107">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2152" y="178" key="#Project_Structure/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1602081613107" />
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603805024191">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603805024191" />
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1603806842922">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603806842922" />
+    <state x="2326" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603180841583" />
+    <state x="2240" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600144600276">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2240" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1600144600276" />
+    <state x="2212" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602757272278">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1601447013053" />
+    <state x="2212" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1602757272278" />
+    <state x="530" y="176" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600949274407">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="176" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1600949274407" />
+    <state width="874" height="466" key="DebuggerActiveHint" timestamp="1603109755202">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="492" height="386" key="DebuggerActiveHint/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1602747868422" />
+    <state width="874" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603109755202" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1603979703883">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603807204935" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603979703883" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1603979703883">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="270" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603807204935" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603979703883" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1603979703883">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="270" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603807204934" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603979703883" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1603979703883">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="270" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1603807204935" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603979703883" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603189991922">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1602748526674" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603189991922" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603189991922">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1602748526674" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603189991922" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603189991922">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1602748526673" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603189991922" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603189991922">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1602748526674" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603189991922" />
+    <state x="2040" y="94" key="SettingsEditor" timestamp="1603095001751">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="367" y="8" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1601451134408" />
+    <state x="2040" y="94" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603095001751" />
+    <state x="2161" y="122" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602772522370">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2161" y="122" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1602772522370" />
+    <state x="2331" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600255991096">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2331" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1600255991096" />
+    <state x="2257" y="252" width="606" height="536" key="find.popup" timestamp="1602749028469">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2257" y="252" width="606" height="536" key="find.popup/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1602749028469" />
+    <state x="2223" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603094987998">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2223" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1603094987998" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/alex/disco/ball/dao/jdbc/MocksTestProductRepo.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/alex/disco/ball/dao/hibernate/integration/HiberanteProductRepoTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alex/disco/ball/entity/Product.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alex/disco/ball/entity/Product.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alex/disco/ball/config/dao/HibernateConfig.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/alex/disco/ball/entity/Product.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

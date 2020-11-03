@@ -1,0 +1,642 @@
+27-Oct-2020 10:10:55.230 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 10:10:55.231 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 10:10:55.454 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 10:10:55.653 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mvc-basic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 10:10:55.674 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 10:10:55.700 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:14:14.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:14:14.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:14:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:14:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:14:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:14:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:14:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:14:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:14:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:14:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:14:14.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:14:14.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:14:14.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:14:14.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:14:14.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:14:14.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:14:14.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:14:14.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:14:14.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:14:14.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:14:14.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:14:14.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:14:14.737 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:14:14.738 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:14:14.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:14:14.804 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:14:15.329 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:14:15.651 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1423] milliseconds
+27-Oct-2020 18:14:15.742 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:14:15.743 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:14:15.789 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:14:15.845 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher] was found with a last modified time that did not match the associated WAR. It will be deleted.
+27-Oct-2020 18:14:20.752 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:14:28.415 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [261] milliseconds.
+27-Oct-2020 18:14:29.493 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [13 704] ms
+27-Oct-2020 18:14:29.516 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\mvc-basic.war]
+27-Oct-2020 18:14:34.404 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:14:45.426 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\mvc-basic.war] has finished in [15 910] ms
+27-Oct-2020 18:14:45.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:14:45.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [76] ms
+27-Oct-2020 18:14:45.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:14:46.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [508] ms
+27-Oct-2020 18:14:46.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:14:46.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [46] ms
+27-Oct-2020 18:14:46.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:14:46.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [46] ms
+27-Oct-2020 18:14:46.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:14:46.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [39] ms
+27-Oct-2020 18:14:46.152 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:14:46.177 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [30524] milliseconds
+27-Oct-2020 18:30:27.287 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MoneyWatcher]
+27-Oct-2020 18:30:27.420 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:30:27.508 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:30:31.184 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:30:34.830 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:30:34.831 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:30:35.102 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:30:35.258 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mvc-basic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:30:35.291 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:30:35.296 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:30:37.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:30:37.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:30:37.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:30:37.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:30:37.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:30:37.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:30:37.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:30:37.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:30:37.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:30:37.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:30:37.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:30:37.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:30:37.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:30:37.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:30:37.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:30:37.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:30:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:30:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:30:37.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:30:37.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:30:37.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:30:37.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:30:37.895 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:30:37.895 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:30:37.897 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:30:37.906 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:30:38.606 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:30:39.035 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1605] milliseconds
+27-Oct-2020 18:30:39.143 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:30:39.144 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:30:39.177 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:30:39.357 SEVERE [main] org.apache.catalina.core.ContainerBase.removeChild Error destroying child
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MoneyWatcher]] in state [STARTED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:316)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1065)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+27-Oct-2020 18:30:39.359 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [11 852] ms
+27-Oct-2020 18:30:43.273 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:30:50.717 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [244] milliseconds.
+27-Oct-2020 18:30:51.485 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [12 308] ms
+27-Oct-2020 18:30:51.488 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\mvc-basic.war]
+27-Oct-2020 18:30:54.858 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:31:05.250 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\mvc-basic.war] has finished in [13 762] ms
+27-Oct-2020 18:31:05.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:31:05.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [26] ms
+27-Oct-2020 18:31:05.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:31:05.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [383] ms
+27-Oct-2020 18:31:05.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:31:05.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [50] ms
+27-Oct-2020 18:31:05.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:31:05.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [45] ms
+27-Oct-2020 18:31:05.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:31:05.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [31] ms
+27-Oct-2020 18:31:05.799 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:31:05.818 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [26780] milliseconds
+27-Oct-2020 18:31:16.307 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mvc-basic]
+27-Oct-2020 18:31:16.442 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [mvc-basic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:32:05.481 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:32:05.482 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:32:05.698 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:32:05.791 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:32:05.813 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:32:05.849 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:32:28.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:32:28.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:32:28.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:32:28.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:32:28.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:32:28.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:32:28.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:32:28.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:32:28.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:32:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:32:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:32:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:32:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:32:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:32:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:32:28.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:32:28.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:32:28.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:32:28.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:32:28.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:32:28.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:32:28.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:32:28.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:32:28.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:32:28.876 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:32:28.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:32:29.307 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:32:29.623 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1066] milliseconds
+27-Oct-2020 18:32:29.691 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:32:29.691 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:32:29.712 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:32:29.738 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher] was found with a last modified time that did not match the associated WAR. It will be deleted.
+27-Oct-2020 18:32:34.441 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:32:41.979 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+27-Oct-2020 18:32:42.782 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [13 070] ms
+27-Oct-2020 18:32:42.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:32:42.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [37] ms
+27-Oct-2020 18:32:42.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:32:43.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [423] ms
+27-Oct-2020 18:32:43.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:32:43.300 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [55] ms
+27-Oct-2020 18:32:43.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:32:43.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [45] ms
+27-Oct-2020 18:32:43.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:32:43.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [37] ms
+27-Oct-2020 18:32:43.392 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:32:43.410 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13784] milliseconds
+27-Oct-2020 18:34:43.565 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MoneyWatcher]
+27-Oct-2020 18:34:43.672 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:34:43.766 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:34:46.971 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:34:46.972 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:34:47.190 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:34:47.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:34:47.239 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:34:47.578 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:34:49.577 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:34:54.674 SEVERE [main] org.apache.catalina.core.ContainerBase.removeChild Error destroying child
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MoneyWatcher]] in state [STARTED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:316)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1065)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+27-Oct-2020 18:34:54.675 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [10 909] ms
+27-Oct-2020 18:34:56.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:34:56.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:34:56.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:34:56.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:34:56.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:34:56.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:34:56.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:34:56.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:34:56.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:34:56.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:34:56.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:34:56.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:34:56.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:34:56.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:34:56.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:34:56.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:34:56.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:34:56.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:34:56.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:34:56.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:34:56.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:34:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:34:56.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:34:56.442 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:34:56.442 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:34:56.449 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:34:56.880 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:34:57.201 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1064] milliseconds
+27-Oct-2020 18:34:57.278 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:34:57.278 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:34:57.301 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:35:01.379 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:35:08.866 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [253] milliseconds.
+27-Oct-2020 18:35:09.636 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [12 334] ms
+27-Oct-2020 18:35:09.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:35:09.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [32] ms
+27-Oct-2020 18:35:09.670 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:35:10.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [404] ms
+27-Oct-2020 18:35:10.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:35:10.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [51] ms
+27-Oct-2020 18:35:10.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:35:10.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [43] ms
+27-Oct-2020 18:35:10.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:35:10.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [37] ms
+27-Oct-2020 18:35:10.215 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:35:10.230 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13027] milliseconds
+27-Oct-2020 18:38:02.692 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:38:02.693 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:38:03.037 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:38:03.141 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:38:03.176 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:38:03.190 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:38:15.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:38:15.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:38:15.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:38:15.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:38:15.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:38:15.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:38:15.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:38:15.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:38:15.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:38:15.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:38:15.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:38:15.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:38:15.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:38:15.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:38:15.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:38:15.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:38:15.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:38:15.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:38:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:38:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:38:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:38:15.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:38:15.160 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:38:15.164 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:38:15.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:38:15.172 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:38:15.627 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:38:15.947 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1112] milliseconds
+27-Oct-2020 18:38:16.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:38:16.017 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:38:16.041 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:38:16.066 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher] was found with a last modified time that did not match the associated WAR. It will be deleted.
+27-Oct-2020 18:38:20.741 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:38:29.515 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [233] milliseconds.
+27-Oct-2020 18:38:30.284 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [14 244] ms
+27-Oct-2020 18:38:30.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:38:30.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [37] ms
+27-Oct-2020 18:38:30.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:38:30.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [439] ms
+27-Oct-2020 18:38:30.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:38:30.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [59] ms
+27-Oct-2020 18:38:30.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:38:30.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [44] ms
+27-Oct-2020 18:38:30.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:38:30.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [34] ms
+27-Oct-2020 18:38:30.910 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:38:30.930 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14980] milliseconds
+27-Oct-2020 18:40:27.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:40:27.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:40:27.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:40:27.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:40:27.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:40:27.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:40:27.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:40:27.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:40:27.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:40:27.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:27.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:27.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:40:27.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:40:27.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:40:27.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:40:27.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:40:27.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:40:27.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:40:27.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:40:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:27.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:40:27.567 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:40:27.569 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:40:27.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:40:27.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:40:27.997 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:40:28.281 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:461)
+		at java.base/sun.nio.ch.Net.bind(Net.java:453)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+27-Oct-2020 18:40:28.297 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1044] milliseconds
+27-Oct-2020 18:40:28.390 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:40:28.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:40:28.414 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:40:31.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:40:31.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:40:31.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:40:31.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:40:31.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:40:31.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:40:31.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:40:31.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:40:31.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:40:31.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:31.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:31.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:40:31.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:40:31.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:40:31.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:40:31.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:40:31.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:40:31.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:40:31.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:40:31.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:31.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:40:31.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:40:31.951 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:40:31.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:40:31.954 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:40:31.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:40:32.453 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:40:32.793 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:461)
+		at java.base/sun.nio.ch.Net.bind(Net.java:453)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+27-Oct-2020 18:40:32.795 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1206] milliseconds
+27-Oct-2020 18:40:32.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:40:32.898 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:40:32.933 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:40:33.126 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:40:35.225 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:40:35.227 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:40:35.543 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:40:35.658 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:40:35.698 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:40:35.761 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:40:38.527 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:40:38.692 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:40:42.662 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:40:43.526 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [279] milliseconds.
+27-Oct-2020 18:40:44.382 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [15 968] ms
+27-Oct-2020 18:40:44.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:40:44.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [35] ms
+27-Oct-2020 18:40:44.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:40:49.066 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:40:55.335 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:42:15.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:42:15.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:42:15.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:42:15.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:42:15.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:42:15.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:42:15.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:42:15.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:42:15.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:42:15.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:42:15.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:42:15.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:42:15.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:42:15.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:42:15.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:42:15.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:42:15.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:42:15.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:42:15.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:42:15.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:42:15.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:42:15.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:42:15.449 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:42:15.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:42:15.452 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:42:15.459 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:42:15.893 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:42:16.200 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1071] milliseconds
+27-Oct-2020 18:42:16.273 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:42:16.273 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:42:16.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:42:16.839 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [232] milliseconds.
+27-Oct-2020 18:42:16.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [570] ms
+27-Oct-2020 18:42:16.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:42:17.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [511] ms
+27-Oct-2020 18:42:17.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:42:17.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [53] ms
+27-Oct-2020 18:42:17.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:42:17.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [43] ms
+27-Oct-2020 18:42:17.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher]
+27-Oct-2020 18:42:21.184 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:42:29.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher] has finished in [11 538] ms
+27-Oct-2020 18:42:29.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:42:29.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [31] ms
+27-Oct-2020 18:42:29.052 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:42:29.068 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12866] milliseconds
+27-Oct-2020 18:44:19.172 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/MoneyWatcher]
+27-Oct-2020 18:44:19.254 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:44:19.347 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:44:21.677 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:44:21.678 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:44:21.909 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:44:21.926 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:44:21.957 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:44:23.297 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:44:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:44:24.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:44:24.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:44:24.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:44:24.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:44:24.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:44:24.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:44:24.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:44:24.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:44:24.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:44:24.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:44:24.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:44:24.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:44:24.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:44:24.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:44:24.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:44:24.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:44:24.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:44:24.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:44:24.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:44:24.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:44:24.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:44:24.634 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:44:24.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:44:24.636 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:44:24.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:44:25.190 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:44:25.549 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1282] milliseconds
+27-Oct-2020 18:44:25.637 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:44:25.637 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:44:25.659 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:44:30.590 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:44:32.351 SEVERE [main] org.apache.catalina.core.ContainerBase.removeChild Error destroying child
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MoneyWatcher]] in state [STARTED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:316)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1065)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+27-Oct-2020 18:44:32.352 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [13 005] ms
+27-Oct-2020 18:44:38.678 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+27-Oct-2020 18:44:39.474 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [13 815] ms
+27-Oct-2020 18:44:39.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:44:39.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [30] ms
+27-Oct-2020 18:44:39.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:44:39.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [368] ms
+27-Oct-2020 18:44:39.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:44:39.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [60] ms
+27-Oct-2020 18:44:39.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:44:39.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [48] ms
+27-Oct-2020 18:44:39.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:44:40.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [40] ms
+27-Oct-2020 18:44:40.032 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:44:40.051 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14498] milliseconds
+27-Oct-2020 18:45:20.043 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Oct-2020 18:45:44.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.39
+27-Oct-2020 18:45:44.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 14:11:46 UTC
+27-Oct-2020 18:45:44.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.39.0
+27-Oct-2020 18:45:44.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Oct-2020 18:45:44.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Oct-2020 18:45:44.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 18:45:44.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.8
+27-Oct-2020 18:45:44.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+27-Oct-2020 18:45:44.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2020 18:45:44.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:45:44.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:45:44.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 18:45:44.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 18:45:44.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 18:45:44.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\conf\logging.properties
+27-Oct-2020 18:45:44.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 18:45:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 18:45:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 18:45:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 18:45:44.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:45:44.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39
+27-Oct-2020 18:45:44.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\temp
+27-Oct-2020 18:45:44.499 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+27-Oct-2020 18:45:44.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2020 18:45:44.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Oct-2020 18:45:44.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+27-Oct-2020 18:45:44.955 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:45:45.264 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1060] milliseconds
+27-Oct-2020 18:45:45.330 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 18:45:45.330 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.39]
+27-Oct-2020 18:45:45.353 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war]
+27-Oct-2020 18:45:45.378 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher] was found with a last modified time that did not match the associated WAR. It will be deleted.
+27-Oct-2020 18:45:50.232 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 18:45:57.689 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [232] milliseconds.
+27-Oct-2020 18:45:58.438 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\MoneyWatcher.war] has finished in [13 085] ms
+27-Oct-2020 18:45:58.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs]
+27-Oct-2020 18:45:58.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\docs] has finished in [30] ms
+27-Oct-2020 18:45:58.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples]
+27-Oct-2020 18:45:58.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\examples] has finished in [428] ms
+27-Oct-2020 18:45:58.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager]
+27-Oct-2020 18:45:58.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\host-manager] has finished in [63] ms
+27-Oct-2020 18:45:58.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager]
+27-Oct-2020 18:45:59.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\manager] has finished in [48] ms
+27-Oct-2020 18:45:59.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT]
+27-Oct-2020 18:45:59.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\job\Orekit\MoneyWatcherWeb\apache-tomcat-9.0.39\webapps\ROOT] has finished in [38] ms
+27-Oct-2020 18:45:59.056 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:45:59.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13809] milliseconds
+27-Oct-2020 18:50:02.364 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 18:50:02.365 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:50:02.588 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 18:50:02.659 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [MoneyWatcher] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 18:50:02.684 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 18:50:02.736 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

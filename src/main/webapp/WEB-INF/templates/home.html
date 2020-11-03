@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<<html xmlns:th="http://www.thymeleaf.org">>
+    <head>
+        <meta charset="UTF-8">
+        <title>Money Watcher Web</title>
+    </head>
+    <body>
+    <div class="persons">
+        <table th:if="${not #lists.isEmpty(products)}" >
+            <th:block th:each="product : ${products}">
+                <tr>
+                    <td><a th:href="@{/products/} + ${product.id}" th:text="${product.id}">ID</a></td>
+                    <td th:text="${product.name}">...</td>
+                    <td th:text="${product.price}">...</td>
+                </tr>
+            </th:block>
+        </table>
+    </div>
+    </body>
+</html>
